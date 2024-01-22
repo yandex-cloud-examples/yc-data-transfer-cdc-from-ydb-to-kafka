@@ -1,5 +1,3 @@
-# Название сценария
+# Захват изменений из Yandex Managed Service for YDB и поставка в Yandex Managed Service for Apache Kafka® с помощью Yandex Data Transfer
 
-Описание сценария и инструкция по его применению.
-
-Для практических руководств обязательна ссылка на документацию.
+С помощью сервиса [Data Transfer](https://cloud.yandex.ru/docs/data-transfer) вы можете отслеживать изменения данных в [Managed Service for YDB](https://cloud.yandex.ru/docs/ydb) и отправлять их в кластер [Managed Service for Apache Kafka®](https://cloud.yandex.ru/docs/managed-kafka). Настройка через Terraform описана в [практическом руководстве](https://cloud.yandex.ru/docs/data-transfer/tutorials/cdc-ydb), необходимый для настройки конфигурационный файл [data-transfer-ydb-mkf.tf](data-transfer-ydb-mkf.tf) расположен в этом репозитории.
