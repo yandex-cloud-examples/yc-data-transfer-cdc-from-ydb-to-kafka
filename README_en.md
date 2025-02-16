@@ -1,0 +1,3 @@
+# Capturing changes from Yandex Managed Service for YDB and delivering them to Yandex Managed Service for Apache Kafka® through Yandex Data Transfer
+
+With [Data Transfer](https://yandex.cloud/en/docs/data-transfer), you can track data changes in [Managed Service for YDB](https://yandex.cloud/en/docs/ydb) and send them to a [Managed Service for Apache Kafka®](https://yandex.cloud/en/docs/managed-kafka) cluster. See [this tutorial](https://yandex.cloud/en/docs/data-transfer/tutorials/cdc-ydb) to learn how to set up the solution with Terraform. This repository contains the configuration file you will need: [data-transfer-ydb-mkf.tf](data-transfer-ydb-mkf.tf).
