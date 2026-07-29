@@ -22,7 +22,7 @@ locals {
 
   # Specify these settings ONLY AFTER the YDB database is created. Then run "terraform apply" command again.
   # You should set up the target endpoint using the GUI to obtain its ID
-  transfer_enabled = 0 # Value '0' disables the transfer creation before the source endpoint is created manually. After that, set to '1' to enable the transfer.
+  transfer_enabled = 0 # Value '0' disables creation of endpoints and transfer before the source and target clusters are created. After the clusters are ready, set it to '1' to create endpoints and transfer.
 
   # The following settings are predefined. Change them only if necessary.
 
