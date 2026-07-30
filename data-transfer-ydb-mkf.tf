@@ -20,9 +20,8 @@ locals {
   target_user_name     = "" # Username of the Apache Kafka® cluster
   target_user_password = "" # Apache Kafka® user's password
 
-  # Specify these settings ONLY AFTER the YDB database is created. Then run "terraform apply" command again.
-  # You should set up the target endpoint using the GUI to obtain its ID
-  transfer_enabled = 0 # Value '0' disables creation of endpoints and transfer before the source and target clusters are created. After the clusters are ready, set it to '1' to create endpoints and transfer.
+  # Specify these settings ONLY AFTER the YDB database and Apache Kafka® cluster are created. Then run "terraform apply" command again.
+  transfer_enabled = 0 # Value '0' disables creation of endpoints and transfer before the source database and target cluster are created. After that, set it to '1' to create endpoints and transfer.
 
   # The following settings are predefined. Change them only if necessary.
 
